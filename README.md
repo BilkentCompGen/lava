@@ -49,6 +49,19 @@ Example:
 
 	./lava -p pacbio.bam -i ilmn.bam -r b38 -o some/path/ -l 1000
 
+Prebuilt SONIC files (annotations container)
+==================================
+
+SONIC files are available under https://github.com/BilkentCompGen/sonic-prebuilt/
+
+ * human_g1k_v37.sonic: SONIC file for Human Reference Genome GRCh37 (1000 Genomes Project version)
+
+ * ucsc_hg19.sonic: SONIC file for the human reference genome, UCSC version build hg19.
+
+ * GRCh38.sonic: SONIC file for the human reference genome build 38.
+	
+Make sure that the same reference was used to align the reads beforehand (BAM file) and to create the SONIC file. The SONIC files and the reference FASTA files linked above are compatible.
+
 Building a new SONIC file
 =======================
 
@@ -57,4 +70,4 @@ Please refer to the SONIC development repository: https://github.com/calkan/soni
 OUTPUT FORMAT
 =============
 
-chromosome  sv_start_bp1  sv_start_bp2  chromosome  sv_end_bp1  sv_end_bp2  sv_type
+	chromosome  sv_start_bp1  sv_start_bp2  chromosome  sv_end_bp1  sv_end_bp2  sv_type
