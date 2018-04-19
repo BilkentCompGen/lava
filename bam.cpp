@@ -405,7 +405,7 @@ int parse_command_line( int argc, char* argv[] )
 
     if (params->name_of_reference == "")
     {
-	cout << "[LAVA PARAMETER ERROR] Name of the reference sequence must be given using the --reference or -r option." << endl;
+	cout << "[LAVA PARAMETER ERROR] Name of the reference must be given using the --reference or -r option." << endl;
 	return -1;
     }
 }
