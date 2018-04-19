@@ -57,4 +57,4 @@ Please refer to the SONIC development repository: https://github.com/calkan/soni
 OUTPUT FORMAT
 =============
 
-chromosome	sv_start_bp1	sv_start_bp2	chromosome	sv_end_bp1	sv_end_bp2	sv_type
+chromosome  sv_start_bp1  sv_start_bp2  chromosome  sv_end_bp1  sv_end_bp2  sv_type
