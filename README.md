@@ -22,9 +22,9 @@ Running LaVa
 
 Required:
 
-	-p, --pacbio_bam	: Input PacBio BAM file, sorted by coordinate and indexed.
-	-i, --ilmn_bam		: Input Illumina BAM file, sorted by coordinate and indexed.
-	-r, --reference		: Name of the reference in any format. (e.g. hg19)
+	-p, --pacbio_bam	: Path to input PacBio BAM file, sorted by coordinate and indexed.
+	-i, --ilmn_bam		: Path to input Illumina BAM file, sorted by coordinate and indexed.
+	-r, --reference		: 
 
 Optional:
 
@@ -47,7 +47,7 @@ For more information:
 
 Example:
 
-	./lava -p pacbio.bam -i ilmn.bam -r b38 -o some/path/ -l 1000
+	./lava -p <pacbio.bam> -i <ilmn.bam> -r <GRCh38.fasta> -o <some/path/> -l 1000
 
 Prebuilt SONIC files (annotations container)
 ==================================
