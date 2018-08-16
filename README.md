@@ -24,7 +24,7 @@ Required:
 
 	-p, --pacbio_bam	: Path to input PacBio BAM file, sorted by coordinate and indexed.
 	-i, --ilmn_bam		: Path to input Illumina BAM file, sorted by coordinate and indexed.
-	-r, --reference		: 
+	-r, --reference		: Path to the reference or sonic aux file for the reference used for alignment.
 
 Optional:
 
